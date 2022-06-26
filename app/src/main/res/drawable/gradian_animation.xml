@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="500"
+        android:drawable="@drawable/custom_seekbar"/>
+    <item android:duration="500"
+        android:drawable="@drawable/custom_seekbar_center"/>
+    <item android:duration="500"
+        android:drawable="@drawable/custom_seekbar_end"/>
+</animation-list>

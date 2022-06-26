@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <style name="SpecificCornerRound">
+        <item name="cornerSizeBottomLeft">60dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeBottomRight">60dp</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+    </style>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:gravity="center">
+
+    <TextView
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:id="@+id/notifiNameOne"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Khánh" />
+    <LinearLayout
+        android:padding="5dp"
+        android:gravity="center"
+        android:id="@+id/layout_center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/notifiNameOne">
+
+        <TextView
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã bên nhau" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/time"
+                style="@style/TextAppearance.Compat.Notification.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1386"
+                android:textColor="#ee82a2"
+                android:textSize="16sp"/>
+            <TextView
+                style="@style/TextAppearance.Compat.Notification.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ee82a2"
+                android:text="Ngày" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:paddingLeft="20dp"
+        android:layout_toEndOf="@+id/layout_center"
+        android:gravity="center"
+        android:id="@+id/notifiNameTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Ngân" />
+
+</RelativeLayout>
